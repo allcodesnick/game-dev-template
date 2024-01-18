@@ -4,23 +4,11 @@
     console.log(runner);}
 )();
 
-
 // IIFEs with parameters
 (function runner (){
+    init = 'code is running here as well...';
     console.log(init);}
 (init));
-
-var init = 10;
-if (init > 0) {
-    {
-        let newRunner = "Hello, world!";
-        test(newRunner);
-    }
-}
-
-function test(newRunner) {
-    console.log(newRunner);
-}
 
 //Template Literals
 function test(newRunner) {
